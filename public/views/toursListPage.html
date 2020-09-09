@@ -67,12 +67,20 @@
         <!-- /.navigation-link -->
       </nav>
       <!-- /.navigation -->
-    </div>
-    <!-- /.container -->
 
-    <div class="container">
+      <div class="finder">
+        <button class="sort additional-buttons">
+          <img src="../images/sort.png" alt="sort by .." class="sort-icon" />
+        </button>
+        <!-- /.sort -->
+        <button class="filter additional-buttons">
+          <img src="../images/filter.png" alt="filter" class="filter-icon" />
+        </button>
+        <!-- /.filter -->
+      </div>
+
       <div class="offers">
-        <div class="offer">
+        <a href="tourInfo.html" class="offer">
           <img src="../images/test-img.JPG" alt="" class="offer-icon" />
           <div class="offer-info">
             <h3 class="offer-title">Назва пропозиції</h3>
@@ -85,15 +93,25 @@
               Ванні кімнати укомплектовані феном.
             </p>
             <div class="offer-details">
-              <span class="offer-location detail">Локація</span>
+              <span class="offer-location detail">
+                <h4 class="small-title">Локація</h4>
+              </span>
               <!-- /.offer-location -->
-              <span class="offer-price detail">Ціна</span>
+              <span class="offer-price detail">
+                <h4 class="small-title">Ціни</h4>
+                <div class="price-parameter"></div>
+                <h4 class="price-value"></h4>
+                <div class="price-parameter"></div>
+                <h4 class="price-value"></h4>
+                <div class="price-parameter"></div>
+                <h4 class="price-value"></h4>
+              </span>
               <!-- /.offer-price -->
             </div>
             <!-- /.offer-details- -->
           </div>
           <!-- /.offer-info -->
-        </div>
+        </a>
         <!-- /.offer- -->
         <div class="offer">
           <img src="" alt="" class="offer-icon" />
@@ -116,6 +134,7 @@
       </div>
       <!-- /.offers- -->
     </div>
+    <!-- /.container -->
 
     <footer class="footer">
       <div class="footer-info contacts">
@@ -130,8 +149,20 @@
       <!-- /.location -->
       <div class="footer-info rights">
         <p class="footer-info-text">Всі права зарезервовані</p>
+        <p>
+          Icons made by
+          <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from
+          <a href="https://www.flaticon.com/" title="Flaticon">
+            www.flaticon.com</a
+          >
+        </p>
       </div>
       <!-- /.rights -->
     </footer>
+
+    <button class="feedback-btn additional-buttons">
+      <img src="../images/question.png" alt="question" class="feedback-icon" />
+    </button>
+    <!-- /.feedback-btn- -->
   </body>
 </html>

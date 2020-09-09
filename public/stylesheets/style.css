@@ -5,6 +5,18 @@ body {
   color: darkslategrey;
 }
 
+h4 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 .header {
   width: 100%;
   height: 400px;
@@ -18,7 +30,7 @@ body {
 .logo {
   height: 200px;
   width: 200px;
-  padding: 100px 0px 0px 100px;
+  margin: 100px 0 0 100px;
 }
 
 .button {
@@ -116,10 +128,8 @@ body {
 .offer {
   margin-top: 30px;
   display: flex;
-}
-
-.offer-info {
-  margin-top: 15px;
+  align-items: center;
+  height: 250px;
 }
 
 .offer-icon {
@@ -131,17 +141,25 @@ body {
 
 .offer-title {
   margin-top: 0px;
+  flex-grow: 1;
+  flex-grow: 1;
+}
+
+.offer-text {
+  flex-grow: 3;
 }
 
 .detail {
-  width: 100px;
+  width: 200px;
   height: 100px;
   background: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .offer-details {
   display: flex;
-  margin-left: 15px;
+  flex-grow: 2;
 }
 
 .offer-price {
@@ -189,7 +207,7 @@ body {
   background-position: center;
   display: flex;
   justify-content: center;
-  padding: 30px 10px 30px 10px;
+  padding: 30px 0px 30px 0px;
 }
 
 .footer-info {
@@ -202,4 +220,42 @@ body {
 
 .rights {
   margin-right: 0px;
+}
+
+.finder {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  width: 250px;
+  margin-top: 15px;
+}
+
+.additional-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-icon {
+  height: 80px;
+  width: 80px;
+}
+
+.sort-icon {
+  height: 55px;
+  width: 55px;
+}
+
+.additional-buttons {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border: 2px double rgb(22, 124, 118);
+  border-radius: 25px;
+}
+
+.feedback-btn {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
 }
